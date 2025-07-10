@@ -239,6 +239,41 @@ main section{
 .resume-donwload-cv{
     margin: 50px;
 }
+/* revieer section */
+.reviewer-entry {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #777;
+  margin: 2px 0 0;
+}
+
+
 /* footer section */
 footer{
     padding: 130px 230px;
