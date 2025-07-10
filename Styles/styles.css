@@ -7,9 +7,9 @@
     background-color: #b2b0ff1f;
 }
 
-/* sahred style */
+/* shared style */
 .secondary-bg{
-    background-color: #ffefcc;
+    background-color: #4d47ff0e;
 }
 .text-primary{
     color: #09ff00;
@@ -126,6 +126,42 @@ nav ul{
     margin: 0px;
     
 }
+.last-second-banner {
+  background-color: #f9f9f9; /* Optional background */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.last-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.last-banner-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.last-banner-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.last-banner-image-wrapper {
+  margin-top: 40px;
+}
+
+.last-banner-picture {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
 /* second banner section */
 .second-banner {
   display: flex;
@@ -218,28 +254,8 @@ main section{
     text-align: justify;
    
 }
-/* section resume */
 
-.resume-container{
-
-    display: flex;
-    gap: 24px;
-}
-.experience-sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-.experience-title{
-    color: #0300a5;
-}
-.experience-description, .experience-sub-title{
-    color: #3b3a3a;
-}
-.resume-donwload-cv{
-    margin: 50px;
-}
-/* revieer section */
+/* reviwer section */
 .reviewer-entry {
   display: flex;
   align-items: center;
@@ -272,6 +288,9 @@ main section{
   color: #777;
   margin: 2px 0 0;
 }
+
+/* better focus section */
+
 
 
 /* footer section */
