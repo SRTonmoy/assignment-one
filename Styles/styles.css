@@ -4,7 +4,9 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    background-color: #b2b0ff1f;
 }
+
 /* sahred style */
 .secondary-bg{
     background-color: #ffefcc;
@@ -20,7 +22,7 @@
 .section-title{
     font-weight: bold;
     color: black;
-    font-size: 100px;
+    font-size: 38px;
 }
 .section-description{
 
@@ -60,10 +62,11 @@
     text-align: center;
 
 }
+
 .header{
     background-image: url("..//images/Hero-bg.png"),url('..//images/header_bg.png');
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 /* Nav styles */
@@ -171,22 +174,34 @@ main section{
 }
 
 /* about-styles */
+
 .about{
-    border-radius: 10px;
-    padding: 130px 150px;
+    background-color: #4d47ff1f;
+    border-radius: 50px;
+    padding: 1px 50px ;
     text-align: center;
     margin-top: 130px;
+}
+.second-section-title{
+     font-size: 44px;
+     margin: 30px;
+     
 }
 .about-items{
     display: flex;
     justify-content: space-around;
 }
 .item-description{
-    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
 }
 .item-title{
-    font-size: larger;
-    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    color: #4E47FF;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 1px;
 }
 /* skilkl section */
 
@@ -224,7 +239,7 @@ main section{
 .resume-donwload-cv{
     margin: 50px;
 }
-/* fotter section */
+/* footer section */
 footer{
     padding: 130px 230px;
     display: flex;
@@ -232,6 +247,8 @@ footer{
 }
 .footer-column{
     width: 50%;
+    align-items: center;
+    padding: 10px 10px;
 }
 footer input[type="text"], footer input[type="email"], footer textarea
 {
@@ -245,4 +262,52 @@ footer input[type="text"], footer input[type="email"], footer textarea
     margin-bottom: 24px;
     border: none;
 
+}
+form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000000;
+}
+.footer-title{
+    font-size: 97px;
+}
+.footer-bottom {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-text-logo {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #4E47FF;
+}
+
+.footer-description {
+  font-size: 16px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4E47FF;
 }
