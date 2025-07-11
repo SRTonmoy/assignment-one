@@ -1,10 +1,15 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
   background-color: #b2b0ff1f;
 }
+.about-items, .skills-container, .footer-bottom, .footer-column {
+  font-family: 'Inter', sans-serif;
+}
+
+
 
 /* shared style */
 .secondary-bg{
@@ -33,10 +38,16 @@ body {
 }
 /* button section */
 .btn-primary:hover, .btn-secondary:hover {
-  background-color: #22f007;
+  background-color: #00dbf8;
   cursor: pointer;
   transition: 0.3s;
 }
+.btn-third:hover {
+  background-color: #d1ff0654;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 
 .btn-primary{
 
@@ -60,14 +71,27 @@ body {
     border-radius: 15px;
     border: none;
     text-align: center;
-
+}
+.btn-third{
+    background-color: #b6fdff;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(0, 2, 3);
+    padding: 22px 35px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
 }
 
-.header{
-    background-image: url("..//images/Hero-bg.png"),url('..//images/header_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  background-image: url("../images/Hero-bg.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 0;
+  margin: 0;
 }
+
 
 /* Nav styles */
 nav{
@@ -96,13 +120,13 @@ nav ul{
 }
 /* banner styles */
 .banner{
-     width: 1440px;
+  width: 1440px;
   height: 698px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto; /* Center the banner on the page */
+  margin: 0 auto; 
   padding: 0 20px;
   margin-bottom: 30px;
 }
@@ -127,7 +151,7 @@ nav ul{
     
 }
 .last-second-banner {
-  background-color: #f9f9f9; /* Optional background */
+  background-color: #f9f9f9; 
   padding: 80px 20px;
   text-align: center;
 }
@@ -238,7 +262,6 @@ main section{
     font-size: 80px;
     color: #4E47FF;
     font-style: normal;
-    font-size: 48px;
     margin-bottom: 1px;
 }
 /* skilkl section */
@@ -250,12 +273,12 @@ main section{
 
     
 }
-.skill{
-    padding: 30px; 
-    box-shadow: 0px 6px 50px 0px black;
-    text-align: justify;
-   
+.skill {
+  padding: 30px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: justify;
 }
+
 
 /* reviwer section */
 .reviewer-entry {
@@ -328,6 +351,7 @@ form label {
 }
 .footer-title{
     font-size: 97px;
+    font-family: 'Raleway';
 }
 .footer-bottom {
   background-color: #f6f6f6;
@@ -337,7 +361,7 @@ form label {
 
 .footer-text-logo {
   font-size: 64px;
-  font-weight: 800;
+  font-weight: bolder;
   margin-bottom: 20px;
   color: #4E47FF;
 }
