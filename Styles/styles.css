@@ -1,11 +1,10 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-optical-sizing: auto;
+  
   font-style: normal;
-  font-variation-settings: "width" 100;
   background-color: #b2b0ff1f;
 }
-.about-items, .skills-container, .footer-bottom, .footer-column {
+.about-items, .skills-container, .footer-inner, .footer-column {
   font-family: 'Inter', sans-serif;
 }
 
@@ -18,21 +17,12 @@ body {
 .text-primary{
     color: #09ff00;
 }
-
-
-.dark-2{
-    color: #474747;
-}
 .section-title{
     font-weight: bold;
     color: black;
     font-size: 38px;
 }
-.section-description{
 
-    font-size: 18px;
-    color: #2b2727;
-}
 .text-center{
     text-align: center;
 }
@@ -67,13 +57,14 @@ body {
     background-color: #4E47FF;
     font-weight: bold;
     color: aliceblue;
-    padding: 18px 35px;
+    padding: 22px 40px;
     border-radius: 15px;
     border: none;
     text-align: center;
+    font-size: 16px;
 }
 .btn-third{
-    background-color: #b6fdff;
+    background-color: #41fab3;
     font-weight: bold;
     font-size: larger;
     color: rgb(0, 2, 3);
@@ -135,11 +126,6 @@ nav ul{
 }
 .banner-content{
     max-width: 800px;
-}
-.banner-greet{
-     font-size: 45px;
-     font-weight: 600;
-
 }
 
 .banner-title{
@@ -243,7 +229,7 @@ main section{
 .about{
     background-color: #4d47ff1f;
     border-radius: 50px;
-    padding: 1px 50px ;
+    padding: 1px 50px 20px ;
     text-align: center;
     margin-top: 130px;
 }
@@ -281,26 +267,8 @@ main section{
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
   text-align: justify;
 }
-/* touch section */
-.contact {
-  
-  padding: 130px 230px;
-  display: flex;
-  gap: 100px;
-  flex-wrap: wrap;
-  background-color: #4d47ff0e; /* same as .secondary-bg */
-}
 
-.contact .footer-column {
-  width: 50%;
-  align-items: center;
-  padding: 10px 10px;
-}
 
-.contact .footer-title {
-  font-size: 97px;
-  font-family: 'Raleway';
-}
 
 
 
@@ -377,13 +345,13 @@ form label {
     font-size: 97px;
     font-family: 'Raleway';
 }
-.footer-bottom > * {
+.footer-inner > * {
   margin-left: auto;
   margin-right: auto;
 }
 
-.footer-bottom {
-  background-color: #f6f6f6;
+.footer-inner {
+  background-color: #fff8f8;
   text-align: center;
   padding: 60px 20px;
 }
@@ -426,7 +394,7 @@ form label {
   gap: 80px;
   border-radius: 40px;
   padding: 100px 60px;
-  background-color: #7671ff17; /* your secondary-bg tint */
+  background-color: #c3adff0a; /* your secondary-bg tint */
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
