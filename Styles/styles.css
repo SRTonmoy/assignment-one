@@ -1,3 +1,4 @@
+/* Body part */
 body {
   font-family: 'Raleway', sans-serif;
   
@@ -10,7 +11,7 @@ body {
 
 
 
-/* shared style */
+/* Shared style */
 .secondary-bg{ 
     background-color: #4d47ff0e;
 }
@@ -26,6 +27,7 @@ body {
 .text-center{
     text-align: center;
 }
+
 /* button section */
 .btn-primary:hover, .btn-secondary:hover {
   background-color: #00dbf8;
@@ -81,6 +83,8 @@ body {
   background-position: center;
   padding: 0 20px;
   margin: 0;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 
@@ -112,6 +116,7 @@ nav ul{
     display: flex;
     align-items: center; 
 }
+
 /* banner styles */
 .banner{
   width: 1440px;
@@ -224,6 +229,7 @@ main section{
     margin-bottom: 130px;
 }
 
+
 /* about-styles */
 
 .about{
@@ -253,7 +259,10 @@ main section{
     font-style: normal;
     margin-bottom: 1px;
 }
-/* skilkl section */
+
+/*======================================================== 
+    skill section 
+========================================================*/
 
 .skills-container{
     display: flex;
@@ -268,11 +277,10 @@ main section{
   text-align: justify;
 }
 
+/* ========================================================
+  Reviewer section
+======================================================== */
 
-
-
-
-/* reviwer section */
 .reviewer-entry {
   display: flex;
   align-items: center;
@@ -306,11 +314,10 @@ main section{
   margin: 2px 0 0;
 }
 
-/* better focus section */
 
-
-
-/* footer section */
+/* ========================================================
+    FOOTER
+======================================================== */
 footer{
     padding: 130px 230px;
     display: flex;
@@ -366,7 +373,6 @@ form label {
   margin: 0 auto 30px;
 }
 
-/* footer section */
 
 .footer-links {
   display: flex;
@@ -393,7 +399,7 @@ form label {
   gap: 80px;
   border-radius: 40px;
   padding: 100px 60px;
-  background-color: #c3adff0a; /* your secondary-bg tint */
+  background-color: #c3adff0a; 
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
